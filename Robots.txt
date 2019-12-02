@@ -1,0 +1,1 @@
+User-Agent: * Disallow: /intranet/ Disallow: / Allow: /*.css?* Sitemap: https://mozitoun.github.io/index.html
