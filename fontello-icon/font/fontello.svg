@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="place" unicode="&#xe800;" d="M748 747c-66 67-154 103-248 103-93 0-181-36-248-103-122-122-137-352-33-492l281-405 280 405c105 140 90 370-32 492z m-245-372c-70 0-128 58-128 128s58 128 128 128 128-57 128-128-57-128-128-128z" horiz-adv-x="1000" />
+
+<glyph glyph-name="time" unicode="&#xe801;" d="M500 849c-276 0-500-224-500-500s224-498 500-498 500 222 500 498-224 500-500 500z m33-515c0-18-15-33-33-33h-267c-18 0-33 15-33 33s15 34 33 34h234v366c0 19 15 34 33 34s33-15 33-34v-400z" horiz-adv-x="1000" />
+
+<glyph glyph-name="happy" unicode="&#xe806;" d="M500 850c-276 0-500-224-500-500s224-500 500-500 500 224 500 500-224 500-500 500z m188-250c34 0 62-42 62-94s-28-93-62-93-63 42-63 93 28 94 63 94z m-375 0c34 0 62-42 62-94s-28-93-62-93-63 42-63 93 28 94 63 94z m187-625c-163 0-298 137-312 311 91-53 199-83 312-83s221 30 313 83c-15-175-150-311-313-311z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
