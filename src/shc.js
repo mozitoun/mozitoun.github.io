@@ -29,7 +29,6 @@ function verifyJWS(jws) {
     y: "88-aI4WAEl4YmUpew40a9vq_w5OcFvsuaKMxJRLRLL0",
   }).then(function (key) {
     const { verify } = jose.JWS.createVerify(key);
-    console.log("jws", jws);
     return verify(jws);
   });
 }
@@ -41,10 +40,8 @@ function decodeJWS(jws) {
   return new Promise((resolve, reject) => {
     zlib.inflateRaw(decodedPayload, function (err, decompressedResult) {
       if (typeof err === "object" && err) {
-        console.log("Unable to decompress");
         reject();
       } else {
-        console.log(decompressedResult);
         scannedResult = decompressedResult.toString("utf8");
         const entries =
           JSON.parse(scannedResult).vc.credentialSubject.fhirBundle.entry;
