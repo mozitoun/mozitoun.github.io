@@ -18,7 +18,7 @@ function decodeOnce(codeReader, selectedDeviceId) {
               'Ton Code QR et valid!',
               'success'
             )
-            location.replace("https://test-zoey-ssca.com/pluginVaccin?name="+decoded[0]["resource"]["name"][0]["given"][0]+"&ln="+decoded[0]["resource"]["name"][0]["family"][0])
+            location.replace("http://127.0.0.1:8000/pluginVaccin?name="+decoded[0]["resource"]["name"][0]["given"][0]+"&ln="+decoded[0]["resource"]["name"][0]["family"][0])
           }
            
           );
@@ -72,7 +72,7 @@ function getSecondPart(codeReader, selectedDeviceId,FirstPart) {
               'Ton Code QR et valid!',
               'success'
             )
-            location.replace("https://test-zoey-ssca.com/pluginVaccin?name="+decoded[0]["resource"]["name"][0]["given"][0]+"&ln="+decoded[0]["resource"]["name"][0]["family"][0])
+            location.replace("http://127.0.0.1:8000/pluginVaccin?name="+decoded[0]["resource"]["name"][0]["given"][0]+"&ln="+decoded[0]["resource"]["name"][0]["family"][0])
           }
            
           );
