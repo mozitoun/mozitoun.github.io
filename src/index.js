@@ -127,6 +127,7 @@ codeReader
       }
     });
     document.getElementById("startButton2").addEventListener("click", () => {
+      getSecondPart(codeReader, selectedDeviceId,sessionStorage.getItem('firstpart'))
     });
 
     document.getElementById("reset_all").addEventListener("click", () => {
